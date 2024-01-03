@@ -65,7 +65,22 @@
 }
 
 body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: var(--color-primary-darkblue);
+}
+
+.logo {
+  text-decoration: none;
+  font-family: Play;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.9545555; /* 95.455% */
+  text-transform: capitalize;
+
+  color: var(--color-primary-blue);
 }
 
 ul {
@@ -73,25 +88,48 @@ ul {
 }
 
 .header-link {
-  color: var(--primary-text);
+  color: var(--color-primary-darkblue);
   text-decoration: none;
-  font-weight: 400;
   font-size: 18px;
-  line-height: 21.09px;
+  line-height: 1.171666;
 }
 
 .header-link:hover {
+  font-weight: 700;
   color: var(--color-primary-blue);
 }
 
 .hero-title {
   color: var(--color-primary-blue);
+
+  font-family: Play;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.81429;
+}
+
+.company-name {
+  text-transform: capitalize;
+}
+
+.hero-title-p {
+  font-size: 18px;
+  line-height: 1.171666;
 }
 
 .button {
+  border: 2px solid var(--color-primary-blue);
   border-radius: 32px;
   background-color: var(--color-primary-blue);
   color: var(--color-primaary-white);
+
+  display: flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.171666;
 }
 
 .button:hover {
@@ -102,12 +140,57 @@ ul {
 
 .button-description {
   color: var(--color-secondary-darkgrey);
+  font-style: 12px;
+  line-height: 1.5;
 }
 
-h2 .accent {
+.section-title {
+  font-family: Play;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.157031;
+}
+
+h2 .accent,
+h3 .accent {
   color: var(--color-primary-blue);
+}
+
+.about-us-section > p {
+  font-size: 22px;
+  line-height: 1.727272;
+}
+
+p .accent {
+  font-weight: 700;
 }
 
 .features {
   color: var(--color-black);
+
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.333333; /* 133.333% */
+}
+
+.procedure-title {
+  color: var(--color-primaary-white);
+
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.181818; /* 118.182% */
+}
+
+.order-title {
+  color: var(--color-primaary-white);
+
+  font-size: 22px;
+  line-height: 1.171818;
+}
+
+.order p {
+  color: var(--color-secondary-grey);
+
+  font-size: 12px;
+  line-height: 1.5;
 }

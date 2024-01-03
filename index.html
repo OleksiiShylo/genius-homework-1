@@ -11,9 +11,7 @@
     <!-- Header -->
     <header>
       <nav>
-        <a href="./index.html"
-          ><img src="./images/logo.svg" alt="Лого Beauty Zone"
-        /></a>
+        <a class="logo" href="./index.html">beauty zone</a>
         <ul>
           <li><a class="header-link" href="#about-us-section">Про нас</a></li>
           <li><a class="header-link" href="#advantages-section">Чому ми</a></li>
@@ -26,17 +24,17 @@
       <address>
         <ul>
           <li>
-            <a href="tel:+380960000007"
+            <a class="address-link" href="tel:+380960000007"
               ><img src="./images/phone-icon.svg" alt="іконка телефону"
             /></a>
           </li>
           <li>
-            <a href=""
+            <a class="address-link" href=""
               ><img src="./images/facebook-icon.svg" alt="іконка фейсбук" />
             </a>
           </li>
           <li>
-            <a href=""
+            <a class="address-link" href=""
               ><img src="./images/instagram-icon.svg" alt="іконка інстаграм"
             /></a>
           </li>
@@ -46,24 +44,26 @@
     <!-- Main -->
     <main>
       <section class="hero-section">
-        <p>Косметологічна клініка</p>
-        <h1 class="hero-title" lang="en">beauty zone</h1>
+        <p class="hero-title-p">Косметологічна клініка</p>
+        <h1 class="hero-title company-name" lang="en">beauty zone</h1>
         <button class="button" type="button">Замовити дзвінок</button>
         <p class="button-description">
           Запишись та отримай безкоштовну консультацію нашого косметолога
         </p>
       </section>
       <section id="about-us-section">
-        <h2>Перевтілюйтесь в <span class="accent">beauty zone!</span></h2>
+        <h2 class="section-title">
+          Перевтілюйтесь в <span class="accent company-name">beauty zone!</span>
+        </h2>
         <p>
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла.
         </p>
         <p>
-          B <span class="accent">beauty zone</span> ми гарантуємо найвищі
-          стандарти якості та приємний сервіс. Наші косметологічні процедури та
-          препарати допоможуть вам підтримувати свою красу та молодість. З нами
-          краса назавжди!
+          B <span class="accent company-name">beauty zone</span> ми гарантуємо
+          найвищі стандарти якості та приємний сервіс. Наші косметологічні
+          процедури та препарати допоможуть вам підтримувати свою красу та
+          молодість. З нами краса назавжди!
         </p>
         <ul>
           <li>
@@ -86,10 +86,12 @@
         </ul>
       </section>
       <section id="advantages-section">
-        <h2>Чому люди <span class="accent">обирають нас</span></h2>
+        <h2 class="section-title">
+          Чому люди <span class="accent">обирають нас</span>
+        </h2>
         <ul>
           <li>
-            <article>
+            <article class="advantage">
               <img
                 src="./images/education-icon.svg"
                 alt="іконка переваги освіти"
@@ -101,7 +103,7 @@
             </article>
           </li>
           <li>
-            <article>
+            <article class="advantage">
               <img
                 src="./images/materials-icon.svg"
                 alt="іконка переваги матеріалів"
@@ -113,7 +115,7 @@
             </article>
           </li>
           <li>
-            <article>
+            <article class="advantage">
               <img
                 src="./images/features-icon.svg"
                 alt="іконка мети підкреслення переваг"
@@ -127,14 +129,16 @@
         </ul>
       </section>
       <section id="procedures-section">
-        <h2>Наші <span class="accent">процедури</span></h2>
+        <h2 class="section-title">
+          Наші <span class="accent">процедури</span>
+        </h2>
         <ul>
           <li>
             <img
               src="./images/procedure-1.jpg"
               alt="ілюстрація маски для обличчя"
             />
-            <h3>Маски для обличчя</h3>
+            <h3 class="procedure-title">Маски для обличчя</h3>
           </li>
 
           <li>
@@ -143,7 +147,7 @@
               alt="ілюстрація ін'єкції 
 для обличчя"
             />
-            <h3>Ін'єкції для обличчя</h3>
+            <h3 class="procedure-title">Ін'єкції для обличчя</h3>
           </li>
           <li>
             <img
@@ -151,13 +155,13 @@
               alt="ілюстрація очищення 
 обличчя"
             />
-            <h3>Очищення обличчя</h3>
+            <h3 class="procedure-title">Очищення обличчя</h3>
           </li>
         </ul>
       </section>
 
       <section id="contacts-section">
-        <h2>Як нас <span class="accent">знайти</span></h2>
+        <h2 class="section-title">Як нас <span class="accent">знайти</span></h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9325719461126!2d30.5181753!3d50.4423566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2sTarasa%20Shevchenko%20Blvd%2C%205%2C%20Kyiv%2C%2002000!5e0!3m2!1sen!2sua!4v1702624095668!5m2!1sen!2sua"
           width="600"
@@ -167,6 +171,17 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
+        <div class="order">
+          <h3 class="order-title">
+            Запишіться <span class="accent">безкоштовно</span> та отримайте
+            подарунок
+          </h3>
+          <button class="button" type="button">Записатись безкоштовно</button>
+          <p class="button-description">
+            Натискаючи на кнопку я погоджуюсь
+            <a href="#" target="_blank">з політикою конфіденційності</a>
+          </p>
+        </div>
       </section>
     </main>
     <!-- Footer -->
