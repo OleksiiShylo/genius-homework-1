@@ -1,3 +1,58 @@
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v19-latin-regular.eot");
+  src: url("../fonts/play-v19-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/play-v19-latin-regular.woff2") format("woff2"),
+    url("../fonts/play-v19-latin-regular.woff") format("woff"),
+    url("../fonts/play-v19-latin-regular.ttf") format("truetype"),
+    url("../fonts/play-v19-latin-regular.svg#Play") format("svg");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v19-latin-700.eot");
+  src: url("../fonts/play-v19-latin-700.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/play-v19-latin-700.woff2") format("woff2"),
+    url("../fonts/play-v19-latin-700.woff") format("woff"),
+    url("../fonts/play-v19-latin-700.ttf") format("truetype"),
+    url("../fonts/play-v19-latin-700.svg#Play") format("svg");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-cyrillic_latin-regular.eot");
+  src: url("../fonts/roboto-v30-cyrillic_latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/roboto-v30-cyrillic_latin-regular.woff2") format("woff2"),
+    url("../fonts/roboto-v30-cyrillic_latin-regular.woff") format("woff"),
+    url("../fonts/roboto-v30-cyrillic_latin-regular.ttf") format("truetype"),
+    url("../fonts/roboto-v30-cyrillic_latin-regular.svg#Roboto") format("svg");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-cyrillic_latin-700.eot");
+  src: url("../fonts/roboto-v30-cyrillic_latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/roboto-v30-cyrillic_latin-700.woff2") format("woff2"),
+    url("../fonts/roboto-v30-cyrillic_latin-700.woff") format("woff"),
+    url("../fonts/roboto-v30-cyrillic_latin-700.ttf") format("truetype"),
+    url("../fonts/roboto-v30-cyrillic_latin-700.svg#Roboto") format("svg");
+}
+
 :root {
   --color-primaary-white: #ffffff;
   --color-primary-blue: #2b7fff;
