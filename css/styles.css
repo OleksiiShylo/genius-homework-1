@@ -1,16 +1,58 @@
+:root {
+  --color-primaary-white: #ffffff;
+  --color-primary-blue: #2b7fff;
+  --color-primary-darkblue: #011c44;
+  --color-secondary-darkgrey: #4a4a4a;
+  --color-secondary-grey: #747272;
+  --color-secondary-darkblue: #011f4a;
+  --color-secondary-yellow: #ffd02b;
+  --color-black: #000000;
+}
+
+body {
+  color: var(--color-primary-darkblue);
+}
+
 ul {
-  list-style-type: none
+  list-style-type: none;
 }
 
 .header-link {
-  color: #011C44;
+  color: var(--primary-text);
   text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
 }
 
 .header-link:hover {
-  color: #2B7FFF;
+  color: var(--color-primary-blue);
 }
 
 .hero-title {
-  color: #2B7FFF;
+  color: var(--color-primary-blue);
+}
+
+.button {
+  border-radius: 32px;
+  background-color: var(--color-primary-blue);
+  color: var(--color-primaary-white);
+}
+
+.button:hover {
+  border: 2px solid var(--color-primary-blue);
+  color: var(--color-primary-darkblue);
+  background-color: transparent;
+}
+
+.button-description {
+  color: var(--color-secondary-darkgrey);
+}
+
+h2 .accent {
+  color: var(--color-primary-blue);
+}
+
+.features {
+  color: var(--color-black);
 }
