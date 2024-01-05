@@ -64,11 +64,37 @@
   --color-black: #000000;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-style: normal;
   color: var(--color-primary-darkblue);
+
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1239px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -83,10 +109,6 @@ body {
   color: var(--color-primary-blue);
 }
 
-ul {
-  list-style-type: none;
-}
-
 .header-link {
   color: var(--color-primary-darkblue);
   text-decoration: none;
@@ -99,7 +121,13 @@ ul {
   color: var(--color-primary-blue);
 }
 
+.hero-section {
+  padding: 0;
+}
+
 .hero-title {
+  margin-bottom: 40px;
+
   color: var(--color-primary-blue);
 
   font-family: Play;
@@ -113,6 +141,8 @@ ul {
 }
 
 .hero-title-p {
+  margin-bottom: 16px;
+
   font-size: 18px;
   line-height: 1.171666;
 }
@@ -125,6 +155,7 @@ ul {
 
   display: flex;
   padding: 16px 32px;
+  margin-bottom: 14px;
   align-items: flex-start;
 
   font-size: 18px;
@@ -145,6 +176,8 @@ ul {
 }
 
 .section-title {
+  margin-bottom: 48px;
+
   font-family: Play;
   font-size: 64px;
   font-weight: 700;
@@ -155,14 +188,20 @@ h2 .accent,
 h3 .accent {
   color: var(--color-primary-blue);
 }
-
-.about-us-section > p {
+.about-us {
+  padding: 0 0 88px 0;
+}
+.about-us > p {
   font-size: 22px;
   line-height: 1.727272;
 }
 
 p .accent {
   font-weight: 700;
+}
+
+.advantages {
+  padding: 88px 0 48px 0;
 }
 
 .features {
@@ -173,12 +212,20 @@ p .accent {
   line-height: 1.333333; /* 133.333% */
 }
 
+.procedures {
+  padding: 48px 0;
+}
+
 .procedure-title {
   color: var(--color-primaary-white);
 
   text-align: center;
   font-size: 22px;
   line-height: 1.181818; /* 118.182% */
+}
+
+.contacts {
+  padding: 48px 0 96px 0;
 }
 
 .order-title {
@@ -193,4 +240,19 @@ p .accent {
 
   font-size: 12px;
   line-height: 1.5;
+}
+
+.footer-link,
+.footer-address-link {
+  color: var(--color-primaary-white);
+
+  font-size: 16px;
+  line-height: 1.171875;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.copyright {
+  font-size: 13px;
+  line-height: 1.171538;
 }
