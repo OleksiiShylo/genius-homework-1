@@ -64,6 +64,8 @@
   --color-black: #000000;
 }
 
+/* Base */
+
 * {
   box-sizing: border-box;
 }
@@ -87,7 +89,13 @@ p {
   margin-top: 0;
 }
 
+p {
+  margin-bottom: 0;
+}
+
 ul {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -97,6 +105,48 @@ ul {
   margin: 0 auto;
 }
 
+.section-title {
+  margin-bottom: 0;
+
+  font-family: Play;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.157031;
+}
+
+h2 .accent,
+h3 .accent {
+  color: var(--color-primary-blue);
+}
+
+/* Header */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 240px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 240px;
+  flex-grow: 1;
+}
+
+.header-menu {
+  display: flex;
+  gap: 56px;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.address-list {
+  display: flex;
+  gap: 32px;
+  flex-grow: 1;
+  justify-content: center;
+}
 .logo {
   text-decoration: none;
   font-family: Play;
@@ -117,12 +167,21 @@ ul {
 }
 
 .header-link:hover {
-  font-weight: 700;
   color: var(--color-primary-blue);
 }
 
+/* Hero Section */
+
 .hero-section {
   padding: 0;
+}
+
+.hero-container {
+  margin: 123.12px 666.95px 126.81px 244px;
+  /* display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px; */
 }
 
 .hero-title {
@@ -170,24 +229,28 @@ ul {
 }
 
 .button-description {
+  margin-bottom: 0;
   color: var(--color-secondary-darkgrey);
   font-style: 12px;
   line-height: 1.5;
 }
 
-.section-title {
-  margin-bottom: 48px;
+/* Abouy Us Section */
 
-  font-family: Play;
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 1.157031;
+.about-us-content {
+  display: flex;
+}
+.about-us-container {
+  width: 710px;
+  margin-top: 40px;
+  margin-bottom: 199px;
+  margin-right: 531px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
 }
 
-h2 .accent,
-h3 .accent {
-  color: var(--color-primary-blue);
-}
 .about-us {
   padding: 0 0 88px 0;
 }
@@ -200,8 +263,33 @@ p .accent {
   font-weight: 700;
 }
 
+/* Advantages */
+
+.advantages-container {
+  max-width: 1060px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.advantages-list {
+  display: flex;
+  gap: 56px;
+}
+
 .advantages {
   padding: 88px 0 48px 0;
+}
+
+.advantage-block {
+  display: flex;
+  flex-direction: column;
+  height: 181px;
+  padding: 24px 32px;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
 }
 
 .features {
@@ -212,20 +300,57 @@ p .accent {
   line-height: 1.333333; /* 133.333% */
 }
 
+/* Procedures */
+
 .procedures {
   padding: 48px 0;
 }
 
+.procedure-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
 .procedure-title {
   color: var(--color-primaary-white);
-
+margin: 372px 77px 32px 115px;
   text-align: center;
   font-size: 22px;
   line-height: 1.181818; /* 118.182% */
 }
 
+.procedure-list {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.procedure-card {
+  background-color: black;
+  border-radius: 120px 4px;
+  width: 344px;
+  height: 456px;
+  flex-shrink: 0;
+}
+
+/* Contacts */
+
 .contacts {
   padding: 48px 0 96px 0;
+}
+
+.contacts-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.contacts-content {
+  display: flex;
+  gap: 32px;
 }
 
 .order-title {
@@ -241,6 +366,8 @@ p .accent {
   font-size: 12px;
   line-height: 1.5;
 }
+
+/* Footer */
 
 .footer-link,
 .footer-address-link {
